@@ -1,0 +1,134 @@
+body {
+  background: #f3f5fc;
+  position: relative;
+}
+
+.header {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+.container-izq {
+  position: absolute;
+  top: 168px;
+  left: 240px;
+}
+
+.container-izq input {
+  color: #0a3871;
+  font-family: Inter;
+  background-color: #f3f5fc;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  outline: none;
+  width: 650px;
+}
+.container-izq p {
+  color: var(--Gray-gray-400, #495057);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+span p {
+  position: absolute;
+  top: 480px;
+  left: 30px;
+}
+span img {
+  left: 10px;
+  top: 485px;
+  position: absolute;
+}
+
+button {
+  width: 328px;
+  padding: 24px;
+  font-size: large;
+}
+
+button:active {
+  background-color: #98aabb;
+}
+
+.encriptar {
+  position: absolute;
+  border-radius: 24px;
+  border: 1px solid var(--Dark-blue-dark-blue-300, #0a3871);
+  background: #0a3871;
+  top: 520px;
+  left: 10px;
+  color: white;
+}
+
+.desencriptar {
+  position: absolute;
+  border-radius: 24px;
+  border: 1px solid var(--Dark-blue-dark-blue-300, #0a3871);
+  background: #d8dfe8;
+  top: 885px;
+  top: 520px;
+  left: 392px;
+  color: #0a3871;
+}
+.container-der {
+  position: absolute;
+  left: 1250px;
+  top: 40px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #fff;
+  width: 400px;
+  height: 764px;
+  border-radius: 32px;
+  border: 1px solid rgb(168, 168, 168);
+}
+
+.container-der textarea {
+  position: absolute;
+  outline: none;
+  border: 0px;
+  background-color: #ffffff;
+  font-size: 26px;
+  top: 60px;
+  left: 26px;
+  resize: none;
+  height: 600px;
+  width: 350px;
+}
+
+.container-der textarea::selection {
+  background-color: transparent;
+}
+
+.opac {
+  opacity: 0;
+}
+
+.btn-mensaje-encriptado {
+  position: absolute;
+  border-radius: 24px;
+  border: 1px solid var(--Dark-blue-dark-blue-300, #0a3871);
+  background: #d8dfe8;
+  top: 650px;
+  right: 30px;
+  color: #0a3871;
+}
+
+.container-der img {
+  position: absolute;
+  width: 220px;
+  top: 180px;
+  left: 92px;
+}
+
+.container-der p {
+  position: absolute;
+  top: 450px;
+  left: 12%;
+  font-size: 20px;
+}
